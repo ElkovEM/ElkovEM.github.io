@@ -18,16 +18,19 @@
     }
 
     .hero {
-        display: flex;
-        background-image: url(Screenshot_4.png);
+        background-color: #fff;
+        padding: 0 0;
+        position: fixed;
+        height: 125px;
     }
 
-    nav {
-        display: flex;
-        flex-wrap: wrap;
+    .main {
+        padding-top: 175px;
     }
-
     .content {
-        overflow-wrap: break-word;
+        visibility: hidden;
+    }
+    video {
+        visibility: hidden;
     }
 }
