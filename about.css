@@ -1,0 +1,72 @@
+nav {
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+#section-3 {
+    display: flex;
+    justify-content: center ;
+    padding-bottom: 40px;
+    margin-top: 10%;
+}
+/* ======== section-3 ======== */
+#card {
+    background: linear-gradient(0deg, rgba(7,8,20,1) 0%, rgba(28,30,51,1) 100%, rgba(19,6,78,1) 100%);
+    width: 30vmin;
+    height: 50vmin;
+    border-radius: 1vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 2s;
+    opacity: 0;
+  }
+  
+  #cardimg {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 30vmin;
+    border: 0.4vmin solid white;
+    background-image: url("portrait.jpg");
+    background-size: cover;
+    margin: 2vmin;
+    z-index: 3;
+    transition: 2s;
+    position: absolute;
+    transform: translateY(-10vmin);
+  }
+  
+  #cardimg2 {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 30vmin;
+    border: 0.4vmin solid white;
+    background-image: url("src/ru_flash-up-ultra_can0-45.png");
+    background-size: cover;
+    margin: 2vmin;
+    z-index: 3;
+    transition: 2s;
+    position: absolute;
+    transform: translateY(-10vmin);
+  }
+
+  #cardp {
+    width: 26vmin;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    transition: 2s;
+    transform: translateY(10vmin);
+    opacity: 0;
+  }
+  .about {
+    display: flex;
+    justify-content: center;
+  }

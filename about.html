@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATA | Сайт об анимации</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="about.css">
+    <script defer src="section.js"></script>
+</head>
+<body>
+    <header class="header">
+    <nav>
+        <a href="index.html"><img src="logo_black.png" class="logo"></a>
+        <ul>
+                <li><a href="index.html" class="hvr-underline-from-left-black" style="color: black;">ГЛАВНАЯ</a></li>
+                <li><a href="#" class="hvr-underline-from-left-black" style="color: black;">СТАТЬИ</a></li>
+                <li><a href="#" class="hvr-underline-from-left-black" style="color: black;">ДАННЫЕ</a></li>
+                <li><a href="about.html" class="hvr-underline-from-left-black" style="color: black;">О НАС</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section class="main">
+        <section class="post-content">
+            <article class="post">
+                <header class="entry-header">
+                    <h2 class="entry-title">
+                        О НАС
+                    </h2>
+                </header> 
+                <div class="post-text">
+                    <p>
+                        ANIMATA - это сайт, посвященный анимации, с акцентом на японское аниме, но также открытый для авторов со всего мира. 
+                        С помощью этого блога мы планируем расширить визуальное восприятие всеми любимых работ, надеясь при этом быть в меру информативными и развлекательными.
+                    </p>
+                </div>
+            </article>
+            <div class="about">
+            <section id="section-3">
+                <div id="cardimg" onclick="mouseClick()" onmouseover="mouseOn()"></div>
+                <div id="card" onmouseout="mouseOff()">
+                    <h2 style="color: white;">Калдун</h2>
+                  <p id="cardp">
+                    Анализирует 200 катов японской анимации в наносекунду, высматривая каждого аниматора и записывая их в отдельный блокнотик
+                  </p>
+                </div>
+              </section>
+              <section id="section-3">
+                <div id="cardimg2" onclick="mouseClick2()" onmouseover="mouseOn()"></div>
+                <div id="card" onmouseout="mouseOff()">
+                </div>
+              </section>
+            </div>
+    </section>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+            | BUNKER.OZEK inc. © 2022 - All rights reserved |
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
