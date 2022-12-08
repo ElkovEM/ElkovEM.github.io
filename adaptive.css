@@ -26,7 +26,9 @@
 
     .main {
         padding-top: 175px;
+        margin: 0 0;
     }
+
     .content {
         visibility: hidden;
     }
