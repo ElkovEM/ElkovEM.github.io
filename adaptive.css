@@ -21,6 +21,7 @@
         background-color: #fff;
         padding: 0 0;
         position: fixed;
+        justify-content: flex-start;
         height: 125px;
     }
 
