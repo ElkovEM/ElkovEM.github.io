@@ -18,7 +18,16 @@
     }
 
     .hero {
-        visibility: hidden;
+        display: flex;
         background-image: url(Screenshot_4.png);
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        overflow-wrap: break-word;
     }
 }
